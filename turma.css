@@ -1,0 +1,328 @@
+#minilogo img{
+ width: 50px;
+ position: relative;
+ right: 160px;
+border-radius: 0 3px 0 3px;
+  }
+.menu{
+    display: flex;
+    gap: 100px;
+    border-top: 10px solid white;
+    padding: 20px;
+    background-color:black;
+    justify-content: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+     position: relative;
+    margin-top: 20px;
+}
+
+.turma{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-even1{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-adm1{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-info1{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+ .turma-event2{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-2admM{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-2admT{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-info2{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-even3{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-3adm{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-3infoM{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+
+.turma-3infoT{
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+   
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 27, 27);
+}
+
+.foto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+}
+
+.texto{
+    width: 70%;
+    color: rgb(255, 255, 255);
+}
+.rodapé{
+    background: black;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid white;
+}
