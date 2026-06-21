@@ -1,0 +1,160 @@
+#minilogo img{
+ width: 50px;
+ position: relative;
+ right: 160px;
+border-radius: 0 3px 0 3px;
+}
+
+.menu{
+    display: flex;
+    gap: 100px;
+    border-top: 10px solid white;
+    padding: 20px;
+    background-color:rgb(19, 13, 8);
+    justify-content: center;
+
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-top: 20px;
+}
+.foto1 img{
+    width: 100%;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+.eventos{
+    padding: 30px;
+    color: rgb(252, 252, 252);
+}
+.eventos h1{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.caixa{
+    background: #000000;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.destaque{
+    padding: 30px;
+    color: rgb(252, 252, 252);
+}
+.destaque h2{
+    margin-bottom: 20px;
+    text-align: center;
+    color:#ffad48;
+}
+.galeria{
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(12, 12, 12);
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item-lateral{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item-lateral1{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.item-lateral{
+      width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.atletas{
+    background: #111;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.liga{
+    background-color: #ffad48;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+}
+.placa{
+    padding: 30px;
+    color: rgb(252, 252, 252);
+
+}
+.placa h4{
+    margin-bottom: 20px;
+    text-align: center;
+    color: orange;
+}
+
+.placa{
+    background: #111;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.jogos{
+    display: flex;
+    gap: 40px;
+}
+.placa1{
+    padding: 30px;
+    color: rgb(252, 252, 252);
+
+}
+.placa1 h4{
+    margin-bottom: 20px;
+    text-align: center;
+    color: orange;
+}
+
+.placa1{
+    background: #111;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px
+ }
+.noticia{
+    padding: 30px;
+    color: white;
+}
+.noticia h3{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.noticia li{
+background: #111;
+margin-bottom: 10px;
+padding: 15px;
+border-radius: 10px;
+}
+.rodapé{
+    background: black;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid white;
+}
