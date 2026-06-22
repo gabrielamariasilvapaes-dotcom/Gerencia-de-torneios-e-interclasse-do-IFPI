@@ -1,0 +1,84 @@
+#minilogo img{
+ width: 50px;
+ position: relative;
+ right: 160px;
+border-radius: 0 3px 0 3px;
+  }
+.formulario{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu{
+    display: flex;
+    gap: 100px;
+    border-top: 10px solid white;
+    padding: 20px;
+    background-color:rgb(19, 13, 8);
+    justify-content: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+     position: relative;
+    margin-top: 20px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+  
+}
+
+.sla{
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.rodapé{
+    background: black;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid white;
+    width: 800;
+}

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="classificacao.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Aluno</title>
+<link rel="stylesheet" href="formulario.css">
 </head>
 <body>
-    <nav class="menu">
-       <div id="minilogo">
+<nav class="menu">
+     <div id="minilogo">
          <img src="foto1.jpeg">
     </div>
       <a href="index.html">Início</a>
@@ -17,54 +17,110 @@
       <a href="classificação.html">Tabela de Classificação</a>
       <a href="formulario.html">Formulário</a>
     </nav>
-    <section class="chave">
-<h1>Tabela de Classificação </h1>
-<p>1 lugar - Primeiro ano Eventos - manhã        ( 0 pontos)</p>
-<p>2 lugar - Primeiro ano Adiministração - manhã ( 0 pontos)</p>
-<p>3 lugar - Primeiro ano Eventos - tarde        ( 0 pontos)</p>
-<p>4 lugar - Primeiro ano Informática - manhã    ( 0 pontos)</p>
-<p>5 lugar - Segundo ano Eventos - manhã         ( 0 pontos)</p>
-<p>6 lugar - Segundo ano Adiministração - manhã  ( 0 pontos)</p>
-<p>7 lugar - Segundo ano Adiministração - tarde  ( 0 pontos)</p>
-<p>8 lugar - Segundo ano Informática - tarde     ( 0 pontos)</p>
-<p>9 lugar - Terceiro ano Eventos - tarde        ( 0 pontos)</p>
-<p>10 lugar - Terceiro ano Adiministração - manhã( 0 pontos)</p>
-<p>11 lugar - Terceiro ano Informática - tarde   ( 0 pontos)</p>
-<p>12 lugar - Terceiro ano Informática - manhã   ( 0 pontos)</p>
-</section>
-<section class="ordem">
-<h1>Fase de Grupos Feminino</h1>
-<h2>Grupo A</h2>
-<p>3 Informática - manhã</p>
-<p>3 Informática - tarde</p>
-<p>Servidores</p>
-<p>2 Adiministração - manhã</p>
-<p>2 Adiministração - tarde</p>
-<h3>Grupo B</h3>
-<p>3 Eventos - tarde</p>
-<p>2 Informática - tarde</p>
-<p>3 Adiministração - manhã</p>
-<p>1 Eventos - tarde</p>
-<p>1/2 Eventos - manhã </p>
-</section>
+    <div class="formulario">
+<div class="container">
+    <h2>Cadastro de Aluno</h2>
 
-<section class="grupo">
-<h1>Fase de Grupos Masculino</h1>
-<h2>Grupo A</h2>
-<p>Servidores</p>
-<p>2 Informática - tarde</p>
-<p>3 Informática - manhã</p>
-<p>2 Adiministração - manhã</p>
-<p>3 Informática - tarde</p>   
-<p>2 Eventos - manhã</p>
-<h3> Grupo B</h3>
-<p>1/2 Adiministração - manhã</p>
-<p>1 Eventos - tarde</p>
-<p>3 Adiministração - manhã</p>
-<p>3 Eventos - tarde</p>
-<p>1 Informática - manhã</p>
-<p>1 Eventos - manhã</p>
-</section>
+    <form>
+        <label for="nome">Nome do Aluno</label>
+        <input type="text" id="nome" placeholder="Digite seu nome"><br>
+
+        <label for="matricula">Matrícula</label>
+        <input type="text" id="matricula" placeholder="Digite sua matrícula"><br>
+
+        <label for="curso">Curso</label>
+        <select id="curso">
+            <option value="">Selecione</option>
+            <option>Administração</option>
+            <option>Informática</option>
+            <option>Eventos</option>
+        </select><br>
+
+        <label for="ano">Ano</label>
+        <select id="ano">
+            <option value="">Selecione</option>
+            <option>1º Ano</option>
+            <option>2º Ano</option>
+            <option>3º Ano</option>
+        </select><br>
+
+        <label for="email">Gmail</label>
+        <input type="email" id="email" placeholder="exemplo@gmail.com"><br>
+
+        <button id="b1" type="submit">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inscrição de Equipes e Atletas</title>
+
+</head>
+<body>
+
+
+<div class="sla">
+
+    <h2>Inscrição de Modalidades</h2>
+
+    <form>
+
+        <label for="equipe">Nome da Equipe ou Atleta </label>
+        <input type="text" placeholder="Digite o nome" id="equipe"><br>
+
+        <label for="Responsável">Responsável</label>
+        <input type="text" placeholder="Nome do responsável" id="Responsável"><br>
+
+        <label for="Modalidade">Modalidade</label>
+        <select id="Modalidade">
+            <optgroup label="Esportes Coletivos">
+                <option>Vôlei</option>
+                <option>Futsal</option>
+                <option>Handebol</option>
+            </optgroup>
+
+        <label for="Individuais">Sport Individuais</label>
+            <optgroup name="Individuais" id="Individuais">
+                <option>Badminton</option>
+                <option>Xadrez</option>
+                <option>Vôlei de Praia</option>
+                <option>Tênis de Mesa</option>
+            </optgroup>
+
+        <label for="Atletismo">Atletismo</label>
+            <optgroup name="Atletismo" id="Atletismo">
+                <option>Salto em Distância</option>
+                <option>Arremesso de Peso</option>
+                <option>Lançamento de Disco</option>
+                <option>Lançamento de Dardo</option>
+            </optgroup>
+        </select><br>
+
+        <label for="Categoria">Categoria</label>
+        <select id="Categoria">
+            <optgroup name="Categoria" id="Categoria">
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Misto</option>
+        </optgroup>
+       </select><br>
+
+         <label for="equipe">Número de Atletas</label>
+        <input type="text" placeholder="Digite o Número de atletas" id="equipe"><br>
+
+        <label for="Observações">Observações</label>
+        <textarea placeholder="Informações adicionais" id="Observações"></textarea><br>
+
+        <button type="submit">Inscrever</button>
+
+    </form>
+
+</div>
+</div>
   <footer class="rodapé">
 <p>@ 2026 - Disciplina de Introdução a Programação Web || IFPI - CASRN | 2° ano Técnico em Informática</p>
 <p>FrontEnd de Site desenvolvido por Maria Gabriela da Silva Paes Landim, Isaque Gonçalves da Silva, Clara Sofhia dos Reis Freques, Juan Benevides Ribeiro Dias e Caio Vitor Dias dos Santos para cumprir o encerramento da disciplina de Introdução a Programação Web.</p> 
